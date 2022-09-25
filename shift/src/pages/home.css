@@ -1,0 +1,100 @@
+.banner__bg{
+    background-color: #d7e7ea;
+    background-image: url("https://assets.website-files.com/6001a28cf379946916779185/6304e1a98f4ae61c10feebc7_Frame%2027%20(3).svg");
+    height: 630px;
+
+}
+
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner__text--header {
+    font-size: 62px;
+    letter-spacing: -1px;
+    line-height: 76px;
+}
+
+.banner__text--para {
+    font-size: 36px;
+    line-height: 45.5px;
+    margin: -20px 0px 20px;
+}
+
+.lower__body--img {
+    display: flex;
+    justify-content: center;
+}
+
+.button__both {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.button__shop--sale {
+    background-color: #232d3e;
+    border-color: #f7f7f7;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 18px 10px;
+    text-align: center;
+}
+
+.button__shop--all {
+    background-color: #fff;
+    border-color: #232d3e;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    color: #232d3e;
+    font-size: 20px;
+    line-height: 20px;
+    padding:18px 10px;
+    text-align: center;
+}
+
+/* 
+.how-it-works{
+    height: 600px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 50px 40px 0px; 
+    background-color: #d7e7ea;
+} */
+
+.flex-container {
+    height: 150px;
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    margin:0px 20px;
+    justify-content: center;
+    text-align: center;
+}  
+
+.flex-child:first-child {
+    margin:0px 20px;
+    text-align: center;
+
+} 
+.lower__para{
+    display: flex;
+    justify-content: center;
+
+}
+.green__text{
+    color: green;
+}

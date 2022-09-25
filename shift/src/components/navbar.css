@@ -1,0 +1,30 @@
+
+.image__placement {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navbar__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.logo__image {
+    width: 140px;
+    display: flex;
+    align-items: center;
+}
+.search__area {
+    display: flex;
+    justify-content: center;
+   
+}
+.search__box {
+    height: 30px;
+    width: 300px;
+    background-color: #d3d3d34a;
+}
